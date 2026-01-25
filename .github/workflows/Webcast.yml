@@ -1,51 +1,46 @@
-name: Update Playlist
+name: StreamFree Scraper
 
 on:
   schedule:
-    - cron: "*/5 * * * *"   # every 5 minutes
-  workflow_dispatch:
-
-permissions:
-  contents: write
+    - cron: "*/5 * * * *"  # every 5 minutes
+  workflow_dispatch:       # manual trigger
 
 jobs:
-  update:
+  run-script:
     runs-on: ubuntu-latest
 
+    env:
+      PROXY_BASE: ${{ secrets.PROXY_BASE }}
+      UA: ${{ secrets.USER_AGENT }}
+      OUTPUT_PATH: ./StreamFree.m3u8
+
     steps:
-      - name: Checkout repository
+      - name: Checkout repo
         uses: actions/checkout@v4
 
       - name: Set up Python
         uses: actions/setup-python@v5
         with:
-          python-version: "3.11"
+          python-version: '3.11'
 
-      - name: Install Python requirements
+      - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install requests playwright
+          pip install playwright requests
+          playwright install chromium
 
-      - name: Install Playwright Chromium
+      - name: Decode base64 script to ppvProxy.py
         run: |
-          python -m playwright install --with-deps chromium
+          echo "${{ secrets.ENCODED_SCRIPT }}" | base64 -d > ppvProxy.py
 
-      - name: Run playlist generator
-        env:
-          PROXY_BASE: ${{ secrets.PROXY_BASE }}
-        run: |
-          python ppvProxy.py
+      - name: Verify file exists
+        run: ls -lah && head -n 20 ppvProxy.py
 
-      - name: Commit & push changes (only if updated)
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+      - name: Run script
+        run: python ppvProxy.py
 
-          git add public/SportsWebcast.m3u8
-
-          if git diff --cached --quiet; then
-            echo "✅ No playlist changes to commit."
-          else
-            git commit -m "Auto-update SportsWebcast.m3u8"
-            git push
-          fi
+      - name: Upload SportsWebcast.m3u8 as artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: StreamFree
+          path: ./SportsWebcast.m3u8
