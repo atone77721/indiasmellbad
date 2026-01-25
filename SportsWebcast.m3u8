@@ -1,24 +1,19 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/basketball_sacramento-kings-vs-detroit-pistons_Sacramento_Kings_vs_Detroit_Pi" group-title="NBA Games",Sacramento Kings vs Detroit Pistons [NBA] (Jan 26 @ 4:00 AM PHT) [720p]
-#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://indiasmellsverybad.xyz/live/sacramento-kings-vs-detroit-pistons720p/index.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/basketball_golden-state-warriors-vs-minnesota-timberwolves_Golden_State_Warriors_vs_Minne" group-title="NBA Games",Golden State Warriors vs Minnesota Timberwolves [NBA] (Jan 26 @ 6:30 AM PHT) [720p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://indiasmellsverybad.xyz/live/golden-state-warriors-vs-minnesota-timberwolves720p/index.m3u8
-#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/hockey_new-jersey-devils-vs-seattle-kraken_New_Jersey_Devils_vs_Seattle_K" group-title="NHL Action",New Jersey Devils vs Seattle Kraken [NHL] (Jan 26 @ 4:00 AM PHT) [1080p]
-#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://indiasmellsverybad.xyz/live/new-jersey-devils-vs-seattle-kraken1080p/index.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/hockey_vegas-golden-knights-vs-ottawa-senators_Vegas_Golden_Knights_vs_Ottawa" group-title="NHL Action",Vegas Golden Knights vs Ottawa Senators [NHL] (Jan 26 @ 6:00 AM PHT) [1080p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://indiasmellsverybad.xyz/live/vegas-golden-knights-vs-ottawa-senators1080p/index.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/hockey_pittsburgh-penguins-vs-vancouver-canucks_Pittsburgh_Penguins_vs_Vancouv" group-title="NHL Action",Pittsburgh Penguins vs Vancouver Canucks [NHL] (Jan 26 @ 7:00 AM PHT) [1080p]
+#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://indiasmellsverybad.xyz/live/pittsburgh-penguins-vs-vancouver-canucks1080p/index.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/football_new-england-patriots-vs-denver-broncos_New_England_Patriots_vs_Denver" group-title="NFL Action",New England Patriots vs Denver Broncos [NFL] (Jan 26 @ 4:00 AM PHT) [1080p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
