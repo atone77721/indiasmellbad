@@ -1,46 +1,75 @@
-name: Update Scraper
+name: ▶️ Update PixelSports Playlist
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # Run every 10 minutes
-  workflow_dispatch:         # Allow manual trigger
+    - cron: '0/10 * * * *'
+  workflow_dispatch:
+
+permissions:
+  contents: write
 
 jobs:
-  run-script:
+  scrape:
     runs-on: ubuntu-latest
 
     env:
       PROXY_BASE: ${{ secrets.PROXY_BASE }}
       UA: ${{ secrets.USER_AGENT }}
-      OUTPUT_PATH: ./SportsWebcast.m3u8
+      OUTPUT_PATH: SportsWebcast.m3u8
 
     steps:
-      - name: Checkout repository
+      - name: 📥 Checkout repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
 
-      - name: Set up Python
+      - name: 🐍 Set up Python 3.11
         uses: actions/setup-python@v5
         with:
           python-version: '3.11'
 
-      - name: Install dependencies
+      - name: 📦 Install dependencies
         run: |
           python -m pip install --upgrade pip
           pip install playwright requests
           playwright install chromium
 
-      - name: Decode base64 script to ppvProxy.py
+      - name: 🔓 Decode base64 to script
         run: |
           echo "${{ secrets.ENCODED_SCRIPT }}" | base64 -d > ppvProxy.py
 
-      - name: Verify file exists
-        run: ls -lah && head -n 20 ppvProxy.py
-
-      - name: Run script
+      - name: 🚀 Run scraper
         run: python ppvProxy.py
 
-      - name: Upload SportsWebcast.m3u8 as artifact
-        uses: actions/upload-artifact@v4
-        with:
-          name: StreamFree
-          path: ./SportsWebcast.m3u8
+      - name: 🐛 Debug file
+        run: |
+          ls -lah
+          cat SportsWebcast.m3u8 || echo "❌ Playlist not generated."
+
+      - name: 💾 Commit & Push if Playlist Changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+
+          git add SportsWebcast.m3u8
+
+          if git diff --cached --quiet; then
+            echo "✅ No changes detected — skipping commit."
+            exit 0
+          fi
+
+          git commit -m "✅ Updated SportsWebcast.m3u8 ($(date -u +'%Y-%m-%d %H:%M UTC'))"
+
+          sleep $((RANDOM % 10 + 5))
+
+          if ! git push origin main; then
+            echo "⚠️ Push failed, attempting safe rebase..."
+            git pull origin main --rebase || {
+              echo "❌ Rebase failed. Stopping to avoid corruption."
+              exit 1
+            }
+            git push origin main || {
+              echo "❌ Push failed again after rebase."
+              exit 1
+            }
+          fi
