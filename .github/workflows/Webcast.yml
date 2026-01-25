@@ -2,8 +2,8 @@ name: Update Scraper
 
 on:
   schedule:
-    - cron: "*/10 * * * *"  # every 10 minutes
-  workflow_dispatch:       # manual trigger
+    - cron: "*/10 * * * *"  # Run every 10 minutes
+  workflow_dispatch:         # Allow manual trigger
 
 jobs:
   run-script:
@@ -15,7 +15,7 @@ jobs:
       OUTPUT_PATH: ./SportsWebcast.m3u8
 
     steps:
-      - name: Checkout repo
+      - name: Checkout repository
         uses: actions/checkout@v4
 
       - name: Set up Python
