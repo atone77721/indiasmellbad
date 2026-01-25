@@ -2,7 +2,7 @@ name: StreamFree Scraper
 
 on:
   schedule:
-    - cron: "*/5 * * * *"  # every 5 minutes
+    - cron: "*/10 * * * *"  # every 10 minutes
   workflow_dispatch:       # manual trigger
 
 jobs:
@@ -12,7 +12,7 @@ jobs:
     env:
       PROXY_BASE: ${{ secrets.PROXY_BASE }}
       UA: ${{ secrets.USER_AGENT }}
-      OUTPUT_PATH: ./StreamFree.m3u8
+      OUTPUT_PATH: ./SportsWebcast.m3u8
 
     steps:
       - name: Checkout repo
