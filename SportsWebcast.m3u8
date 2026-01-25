@@ -1,31 +1,31 @@
 #EXTM3U
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/soccer_ac-milan-vs-as-roma_AC_Milan_vs_AS_Roma" group-title="Global Football Streams",AC Milan vs AS Roma [Serie A] (Jan 26 @ 3:45 AM PHT) [1080p]
-#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-user-agent=
-https://indiasmellsverybad.xyz/live/ac-milan-vs-as-roma1080p/index.m3u8
-#EXTINF:-1 tvg-id="Soccer.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/soccer_real-betis-vs-alavés_Real_Betis_vs_Alavés" group-title="Global Football Streams",Real Betis vs Alavés [La Liga] (Jan 26 @ 4:00 AM PHT) [720p]
-#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-user-agent=
-https://indiasmellsverybad.xyz/live/real-betis-vs-alavés720p/index.m3u8
 #EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/basketball_sacramento-kings-vs-detroit-pistons_Sacramento_Kings_vs_Detroit_Pi" group-title="NBA Games",Sacramento Kings vs Detroit Pistons [NBA] (Jan 26 @ 4:00 AM PHT) [720p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-user-agent=
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://indiasmellsverybad.xyz/live/sacramento-kings-vs-detroit-pistons720p/index.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/basketball_golden-state-warriors-vs-minnesota-timberwolves_Golden_State_Warriors_vs_Minne" group-title="NBA Games",Golden State Warriors vs Minnesota Timberwolves [NBA] (Jan 26 @ 6:30 AM PHT) [720p]
+#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://indiasmellsverybad.xyz/live/golden-state-warriors-vs-minnesota-timberwolves720p/index.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/hockey_new-jersey-devils-vs-seattle-kraken_New_Jersey_Devils_vs_Seattle_K" group-title="NHL Action",New Jersey Devils vs Seattle Kraken [NHL] (Jan 26 @ 4:00 AM PHT) [1080p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-user-agent=
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://indiasmellsverybad.xyz/live/new-jersey-devils-vs-seattle-kraken1080p/index.m3u8
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/hockey_vegas-golden-knights-vs-ottawa-senators_Vegas_Golden_Knights_vs_Ottawa" group-title="NHL Action",Vegas Golden Knights vs Ottawa Senators [NHL] (Jan 26 @ 6:00 AM PHT) [1080p]
+#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://indiasmellsverybad.xyz/live/vegas-golden-knights-vs-ottawa-senators1080p/index.m3u8
 #EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/football_new-england-patriots-vs-denver-broncos_New_England_Patriots_vs_Denver" group-title="NFL Action",New England Patriots vs Denver Broncos [NFL] (Jan 26 @ 4:00 AM PHT) [1080p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-user-agent=
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://indiasmellsverybad.xyz/live/new-england-patriots-vs-denver-broncos1080p/index.m3u8
 #EXTINF:-1 tvg-id="Tennis.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/tennis_d47473ab-99b7-4875-8c99-7e3b2f94d375_Sky_Sports_Tennis" group-title="Tennis",Sky Sports Tennis [SKY] (Jan 3 @ 1:00 AM PHT) [1080p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
-#EXTVLCOPT:http-user-agent=
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://indiasmellsverybad.xyz/live/skysportstennis1080p/index.m3u8
