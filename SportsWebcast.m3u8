@@ -4,6 +4,16 @@
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://indiasmellsverybad.xyz/live/golden-state-warriors-vs-minnesota-timberwolves720p/index.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/basketball_toronto-raptors-vs-oklahoma-city-thunder_Toronto_Raptors_vs_Oklahoma_Ci" group-title="NBA Games",Toronto Raptors vs Oklahoma City Thunder [NBA] (Jan 26 @ 8:00 AM PHT) [720p]
+#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://indiasmellsverybad.xyz/live/toronto-raptors-vs-oklahoma-city-thunder720p/index.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/basketball_new-orleans-pelicans-vs-san-antonio-spurs_New_Orleans_Pelicans_vs_San_An" group-title="NBA Games",New Orleans Pelicans vs San Antonio Spurs [NBA] (Jan 26 @ 8:00 AM PHT) [720p]
+#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://indiasmellsverybad.xyz/live/new-orleans-pelicans-vs-san-antonio-spurs720p/index.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/hockey_vegas-golden-knights-vs-ottawa-senators_Vegas_Golden_Knights_vs_Ottawa" group-title="NHL Action",Vegas Golden Knights vs Ottawa Senators [NHL] (Jan 26 @ 6:00 AM PHT) [1080p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
@@ -14,11 +24,16 @@ https://indiasmellsverybad.xyz/live/vegas-golden-knights-vs-ottawa-senators1080p
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://indiasmellsverybad.xyz/live/pittsburgh-penguins-vs-vancouver-canucks1080p/index.m3u8
-#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/football_new-england-patriots-vs-denver-broncos_New_England_Patriots_vs_Denver" group-title="NFL Action",New England Patriots vs Denver Broncos [NFL] (Jan 26 @ 4:00 AM PHT) [1080p]
+#EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/hockey_florida-panthers-vs-chicago-blackhawks_Florida_Panthers_vs_Chicago_Bl" group-title="NHL Action",Florida Panthers vs Chicago Blackhawks [NHL] (Jan 26 @ 8:00 AM PHT) [1080p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
-https://indiasmellsverybad.xyz/live/new-england-patriots-vs-denver-broncos1080p/index.m3u8
+https://indiasmellsverybad.xyz/live/florida-panthers-vs-chicago-blackhawks1080p/index.m3u8
+#EXTINF:-1 tvg-id="NFL.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/football_los-angeles-rams-vs-seattle-seahawks_Los_Angeles_Rams_vs_Seattle_Se" group-title="NFL Action",Los Angeles Rams vs Seattle Seahawks [NFL] (Jan 26 @ 7:30 AM PHT) [1080p]
+#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://indiasmellsverybad.xyz/live/los-angeles-rams-vs-seattle-seahawks1080p/index.m3u8
 #EXTINF:-1 tvg-id="Tennis.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/tennis_d47473ab-99b7-4875-8c99-7e3b2f94d375_Sky_Sports_Tennis" group-title="Tennis",Sky Sports Tennis [SKY] (Jan 3 @ 1:00 AM PHT) [1080p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
