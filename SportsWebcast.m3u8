@@ -14,6 +14,11 @@ https://indiasmellsverybad.xyz/live/new-orleans-pelicans-vs-san-antonio-spurs108
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
 https://indiasmellsverybad.xyz/live/miami-heat-vs-phoenix-suns1080p/index.m3u8
+#EXTINF:-1 tvg-id="NBA.Basketball.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/basketball_brooklyn-nets-vs-la-clippers_Brooklyn_Nets_vs_LA_Clippers" group-title="NBA Games",Brooklyn Nets vs LA Clippers [NBA] (Jan 26 @ 10:00 AM PHT) [720p]
+#EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36
+https://indiasmellsverybad.xyz/live/brooklyn-nets-vs-la-clippers720p/index.m3u8
 #EXTINF:-1 tvg-id="NHL.Hockey.Dummy.us" tvg-logo="https://streamfree.to/thumbnails/hockey_pittsburgh-penguins-vs-vancouver-canucks_Pittsburgh_Penguins_vs_Vancouv" group-title="NHL Action",Pittsburgh Penguins vs Vancouver Canucks [NHL] (Jan 26 @ 7:00 AM PHT) [1080p]
 #EXTVLCOPT:http-origin=https://indiasmellsverybad.xyz/
 #EXTVLCOPT:http-referrer=https://indiasmellsverybad.xyz/
